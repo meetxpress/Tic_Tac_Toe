@@ -62,7 +62,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loadBoard() {
-
         for (i in boardCells.indices) {
             for (j in boardCells.indices) {
                 boardCells[i][j] = ImageView(this@MainActivity)
