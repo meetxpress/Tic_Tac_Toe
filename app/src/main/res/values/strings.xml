@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="about_title"><h2>Why I Made this App</h2></string>
+    <string name="about_desc">I have Developed this game as an android application. This was so famous when I was child. Students used to play this game in there free time. I played this game a lot and it is still that complicated to win. So as a submission of a Hackathone, I have develop this application. And still you can not beat the computer. It is hard to win. So enjoy this game and all the best.</string>
+
+    <string name="webAdd"><u>www.meetpatel.live</u></string>
+</resources>

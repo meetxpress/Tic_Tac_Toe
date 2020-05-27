@@ -1,0 +1,2 @@
+rootProject.name='Tic Tac-The Game'
+include ':app'
