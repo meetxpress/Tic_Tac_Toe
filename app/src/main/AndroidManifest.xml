@@ -10,12 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".HowToPlayActivity"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme2"/>
+        <activity
             android:name=".AboutActivity"
-            android:parentActivityName=".HomeActivity"/>
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme2"/>
         <activity android:name=".HomeActivity" />
         <activity
             android:name=".MainActivity"
-            android:parentActivityName=".HomeActivity"/>
+            android:parentActivityName=".HomeActivity" />
         <activity
             android:name=".SplashScreen"
             android:theme="@style/AppTheme">

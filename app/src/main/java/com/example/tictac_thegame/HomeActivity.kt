@@ -1,6 +1,7 @@
 package com.example.tictac_thegame
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.AlertDialog
@@ -20,8 +21,30 @@ class HomeActivity : AppCompatActivity() {
             startActivity(Intent(this@HomeActivity, AboutActivity::class.java))
         }
 
+        btnHowToPlay.setOnClickListener {
+            startActivity(Intent(this@HomeActivity, HowToPlayActivity::class.java))
+        }
+
         btnExit.setOnClickListener {
             finishAffinity()
+        }
+
+        socialOne.setOnClickListener{
+            val openURL = Intent(android.content.Intent.ACTION_VIEW)
+            openURL.data = Uri.parse("https://www.instagram.com/meetxpress/")
+            startActivity(openURL)
+        }
+
+        socialTwo.setOnClickListener{
+            val openURL = Intent(android.content.Intent.ACTION_VIEW)
+            openURL.data = Uri.parse("https://www.github.com/meetxpress/")
+            startActivity(openURL)
+        }
+
+        socialThree.setOnClickListener{
+            val openURL = Intent(android.content.Intent.ACTION_VIEW)
+            openURL.data = Uri.parse("http://www.meetpatel.live/")
+            startActivity(openURL)
         }
     }
 

@@ -17,7 +17,6 @@ class AboutActivity : AppCompatActivity() {
             openURL.data = Uri.parse("http://www.meetpatel.live/")
             startActivity(openURL)
         }
-
     }
 
     override fun onBackPressed() {

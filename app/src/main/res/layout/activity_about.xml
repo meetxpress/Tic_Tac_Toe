@@ -8,44 +8,10 @@
     android:layout_height="match_parent"
     tools:context=".AboutActivity">
 
-    <ImageView
-        android:id="@+id/SS_icon"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="75dp"
-        android:background="@drawable/ic_tictactoe"
-        android:foregroundGravity="center_horizontal|center_vertical|center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/image_view_name"
-        android:layout_width="207dp"
-        android:layout_height="100dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="75dp"
-        android:layout_marginEnd="16dp"
-        android:layout_toEndOf="@+id/SS_icon"
-        android:background="@drawable/app_name"
-        android:foregroundGravity="center_horizontal|center_vertical|center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
-
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="671dp"
-        android:layout_below="@+id/image_view_name"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="5dp">
+        android:layout_height="779dp"
+        android:layout_alignParentTop="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -53,67 +19,55 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textTitle"
+                android:id="@+id/labelOne"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/image_view_name"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="28dp"
-                android:layout_marginTop="24dp"
-                android:layout_marginEnd="28dp"
-                android:gravity="center_vertical|center"
-                android:text="@string/about_title"
-                android:textColor="#FFFFFF"
-                android:textSize="30dp" />
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/textTitle"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="8dp"
-                android:gravity="center_vertical|center"
-                android:text="@string/about_desc"
-                android:textColor="#FFFFFF"
-                android:textSize="28dp" />
-
-            <TextView
-                android:id="@+id/contactMe"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/textView"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="67dp"
-                android:layout_marginEnd="1dp"
-                android:gravity="center_vertical|center"
-                android:text="Contact me on"
-                android:textColor="#FFFFFF"
-                android:textSize="28dp"/>
-
-            <TextView
-                android:id="@+id/linkToOpen"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/textView"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentEnd="true"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="1dp"
-                android:gravity="center_vertical|center"
-                android:text="@string/webAdd"
+                android:text="@string/about_app"
                 android:textColor="#FFFFFF"
-                android:textSize="28dp"
+                android:textSize="34dp"
                 android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/aboutApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="1dp"
+                android:text="@string/about_appText"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp" />
+
         </LinearLayout>
     </ScrollView>
 
+    <TextView
+        android:id="@+id/linkToOpen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/webAdd"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/aboutDeveloper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="8dp"
+        android:text="V 1.0.1"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp" />
 
 </RelativeLayout>

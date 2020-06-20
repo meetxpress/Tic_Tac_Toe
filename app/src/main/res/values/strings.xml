@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">Tic Tac Toe</string>
-    <string name="about_title"><h2>Why I Made this App</h2></string>
-    <string name="about_desc">I have Developed this game as an android application. This was so famous when I was in primary school. We used to play this game in there free time. I have played this game a lot and it is still that hard to win. So as a submission of a Hackathone, I developed this application. And still you can not beat the computer. It is hard to win. So enjoy this game and all the best.</string>
+    <string name="about_app">About Application</string>
+    <string name="about_appText">This application is for android devices. Tic Tac Toe is also known as Zero &amp; Cross. When I was in school, I had played this game a lot in my free time and sometimes during classes too. So I decided that I should make an app for this game and I did. So I can play this game. Here\'s the game you installed. It is a tricky board game for a single player who will compete with a computer player and which required a high level of intelligence to won against a computer player. And I can also bet you that you could not beat a computer player.</string>
+    <string name="howtoplay">How to Play</string>
+    <string name="howtoplayText1">1. The game is played on a grid that\'s 3 squares by 3 squares.</string>
+    <string name="howtoplayText2">2. You are O, and the computer is X. Players take turns putting their marks in empty squares.</string>
+    <string name="howtoplayText3">3. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.</string>
+    <string name="howtoplayText4">4. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.</string>
+    <string name="howtoplayText5">5. All the best.</string>
 
     <string name="webAdd"><u>www.meetpatel.live</u></string>
 </resources>
